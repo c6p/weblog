@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block title %}{{ super() }} : {{ article.title }}{% endblock %}
+{% block content %}
+<header>
+    {% if not HIDE_DATE %}<time datetime="{{ article.date.isoformat() }}">{{ article.locale_date }}</time>{% endif %}
+    <ul class="page-tags">
+        {% for tag in article.tags %}
+        <li><a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a></li>
+        {% endfor %}
+    </ul>
+    <h1>
+        <span id="page-title-span"><a href="{{ SITEURL }}/{{ category.url }}">{{ category }}</a> :: </span><span id="page-title">{{ article.title }}</span>
+        <span class="page-translations">{% include "translations.html" %}</span>
+    </h1>
+</header>
+<article>
+    {{ article.content }}
+</article>
+{% endblock %}

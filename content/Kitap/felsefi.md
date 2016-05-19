@@ -2,7 +2,7 @@ Title: Felsefi Soruşturmalar
 Slug: felsefi-sorusturmalar
 Lang: tr
 
-Wittgenstein'ın Felsefi Soruşturmalar'ının Metis çevirisinden aldığım notlar (bir nevi özet).
+Wittgenstein'ın Felsefi Soruşturmalar'ının Metis çevirisinden aldığım notlar (bir nevi özet). *Özet çıkarmayı öğrenmem lazım*.
 
 **1.** Augustinus'un çizdiği resme göre dildeki sözcükler nesnelerin adları, tümceler adlandırışların bağlantılarıdır. "Beş kırmızı elma". Satıcı *kırmızı*yı tabelada renk örneğinin karşısında bulup, *elma* imi olan sandıktan teker teker *beş*e kadar veriyor. Soru: Kırmızıyı nerede arayacağını nereden biliyor, beş'in karşılığı nedir?
 
@@ -112,7 +112,7 @@ A (usta) ve B (kalfa) arasında, *küp*, *sütun*, *plaka*, *kiriş* sözcükler
 
 **148.** Bilme neden oluşur. Uygulamayı ne zaman biliyorsundur? Gece gündüz, daima. Arkasında yatan formülü anladığında? Formül aklıma gelmiş olsun hangi durumda, koşullarda arkasını biliyorum deriz? Yazılı olanı sese dönüştürme ya da dikteyi yazıya dönüştürme anlamında 'okuma'yı ele alalım. Yeni okumayı söken anlamları kimi zaman cümleden çıkaran biriyle, tecrübeli belki aklı başka işle meşgul okuyucunun zihninden aynı şeyler geçmez. Önemli olan yazı-im
 
-
+...to be continued. (sanırım hayır)
 
 
 

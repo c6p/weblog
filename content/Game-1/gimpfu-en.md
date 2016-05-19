@@ -9,7 +9,7 @@ I wrote a small [PythonFu](https://gist.github.com/c6parmak/e73d82fc28f8f8a129a8
 
 PythonFu saves visible layers above as a PNG image, then wrotes coordinates of, again, visible layers to YAML as below. I will use this in my UI library which is going to use YAML and ChaiScript. Also I am planning to make whole game configuration with these two.
 
-    !#yaml
+    :::yaml
     load: Untitled.png
     textures:
     - coords:
