@@ -12,8 +12,8 @@
 div.block { display:inline-block; }
 ul.categories li { display:inline-block; }
 #sidebar ul.categories a { padding: 0 5px; color:#303030; }
-body {padding:0px 10px; }
-ul.tagcloud { display:none; }
+body { padding:0px 10px; font-family: Georgia, serif; }
+/* ul.tagcloud { display:none; } */
 /* #sidebar h1 { border-bottom:none; } */
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width:2000px) ,
@@ -38,13 +38,13 @@ li.tag-2 { font-size: 125%; }
 li.tag-3 { font-size: 100%; }
 li.tag-4 { font-size: 75%; }
 #sidebar .block a { display:block; color:#818B91; }
-#sidebar .block a:hover { color:#FFFEFB; background-color:#818B91; }
+#sidebar .block a:hover { color:#FFFEFB; background-color:#818B91; font-weight:bold; }
 .categories li { font-size: 110%; }
 
 
 body {  font-size: 14px; margin:0px; text-align:center; font:Baskerville, Georgia, "Times New Roman", serif; color:#000000; line-height: 1.5; }
-a, a:visited { text-decoration:none; color:#5353CB; }
-.entry a:hover { color:#FFFEFB; background-color:#5353CB }
+a, a:visited { text-decoration:none; color:#202098; }
+.entry a:hover { text-decoration:underline; }
 h1, h2, h3, h4, h5, h6, h7 { margin:0px; line-height:1; color:#585858 }
 h1 { padding:0px 0px 0px; }
 blockquote { background:#fcfcfc; margin:20px; padding:5px 10px; }
@@ -153,6 +153,6 @@ figure { margin:auto; max-width:100%; padding 5px 0; text-align: center;}
     height: 100%;
 }
 figcaption p { margin:0; }
-em { color:darkred; }
+em { color:#b30000; }
 
-.math { color: darkred }
+.math { color:#333333; }

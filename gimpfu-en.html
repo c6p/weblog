@@ -31,7 +31,7 @@
             <ul class="categories">
                 <li><a href="./category/42.html">42</a></li>
                 <li><a href="./category/game-1.html">Game-1</a></li>
-                <li><a href="./category/genel.html">Genel</a></li>
+                <li><a href="./category/kitap.html">Kitap</a></li>
                 <li><a href="./category/notara.html">NotAra</a></li>
             </ul>
         </div>
@@ -58,22 +58,21 @@
     <p>I wrote a small <a href="https://gist.github.com/c6parmak/e73d82fc28f8f8a129a8">PythonFu</a> to easily transfer textures using the layer data from multitextures prepared in the Gimp</p>
 <p><img alt="Gimp ekran görüntüsü" src="static/gimp-layers.png" /></p>
 <p>PythonFu saves visible layers above as a PNG image, then wrotes coordinates of, again, visible layers to YAML as below. I will use this in my UI library which is going to use YAML and ChaiScript. Also I am planning to make whole game configuration with these two.</p>
-<div class="highlight"><pre><span></span>!#yaml
-load: Untitled.png
-textures:
-- coords:
-  - [0, 20, 20, 20]
-  - [20, 20, 20, 20]
-  name: button
-  type: imagelist
-- coords:
-  - [0, 0, 20, 20]
-  - [20, 0, 20, 20]
-  name: Layer Group
-  type: imagelist
-- coords: [0, 0, 640, 400]
-  name: Background
-  type: image
+<div class="highlight"><pre><span></span><span class="l l-Scalar l-Scalar-Plain">load</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">Untitled.png</span>
+<span class="l l-Scalar l-Scalar-Plain">textures</span><span class="p p-Indicator">:</span>
+<span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">coords</span><span class="p p-Indicator">:</span>
+  <span class="p p-Indicator">-</span> <span class="p p-Indicator">[</span><span class="nv">0</span><span class="p p-Indicator">,</span> <span class="nv">20</span><span class="p p-Indicator">,</span> <span class="nv">20</span><span class="p p-Indicator">,</span> <span class="nv">20</span><span class="p p-Indicator">]</span>
+  <span class="p p-Indicator">-</span> <span class="p p-Indicator">[</span><span class="nv">20</span><span class="p p-Indicator">,</span> <span class="nv">20</span><span class="p p-Indicator">,</span> <span class="nv">20</span><span class="p p-Indicator">,</span> <span class="nv">20</span><span class="p p-Indicator">]</span>
+  <span class="l l-Scalar l-Scalar-Plain">name</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">button</span>
+  <span class="l l-Scalar l-Scalar-Plain">type</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">imagelist</span>
+<span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">coords</span><span class="p p-Indicator">:</span>
+  <span class="p p-Indicator">-</span> <span class="p p-Indicator">[</span><span class="nv">0</span><span class="p p-Indicator">,</span> <span class="nv">0</span><span class="p p-Indicator">,</span> <span class="nv">20</span><span class="p p-Indicator">,</span> <span class="nv">20</span><span class="p p-Indicator">]</span>
+  <span class="p p-Indicator">-</span> <span class="p p-Indicator">[</span><span class="nv">20</span><span class="p p-Indicator">,</span> <span class="nv">0</span><span class="p p-Indicator">,</span> <span class="nv">20</span><span class="p p-Indicator">,</span> <span class="nv">20</span><span class="p p-Indicator">]</span>
+  <span class="l l-Scalar l-Scalar-Plain">name</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">Layer Group</span>
+  <span class="l l-Scalar l-Scalar-Plain">type</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">imagelist</span>
+<span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">coords</span><span class="p p-Indicator">:</span> <span class="p p-Indicator">[</span><span class="nv">0</span><span class="p p-Indicator">,</span> <span class="nv">0</span><span class="p p-Indicator">,</span> <span class="nv">640</span><span class="p p-Indicator">,</span> <span class="nv">400</span><span class="p p-Indicator">]</span>
+  <span class="l l-Scalar l-Scalar-Plain">name</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">Background</span>
+  <span class="l l-Scalar l-Scalar-Plain">type</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">image</span>
 </pre></div>
 </article>
             </div>
