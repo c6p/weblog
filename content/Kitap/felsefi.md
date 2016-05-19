@@ -1,4 +1,5 @@
 Title: Felsefi Soruşturmalar
+Date: 2015-04-09
 Slug: felsefi-sorusturmalar
 Lang: tr
 
