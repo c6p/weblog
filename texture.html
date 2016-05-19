@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Log : Doku</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="./theme/css/main.css" type="text/css" />
+<link href="./" type="application/atom+xml" rel="alternate" title="Log ATOM Feed" />
+<script type="text/javascript" src="./theme/gfycat.js"></script>
+<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+<!--
+<script>
+ (function(d, t) {
+    var g = d.createElement(t),
+        s = d.getElementsByTagName(t)[0];
+    g.src = './theme/gfyajax-max.js';
+    s.parentNode.insertBefore(g, s);
+}(document, 'script'));
+</script>
+-->
+</head>
+
+<body>
+<div id="wrap">
+
+    <div id="sidebar">
+        <h1><a href=". " title="title">Log</a></h1>
+        <span class="description"> </span>
+        <!-- <span class="feed"><a href="">RSS</a> | <a href="">Atom</a></span> -->
+        <div class="block">
+            <ul class="categories">
+                <li><a href="./category/42.html">42</a></li>
+                <li><a href="./category/game-1.html">Game-1</a></li>
+                <li><a href="./category/genel.html">Genel</a></li>
+                <li><a href="./category/notara.html">NotAra</a></li>
+            </ul>
+        </div>
+        <div class="block">
+            <ul class="tagcloud">
+            </ul>
+        </div>
+    </div>
+
+        <div id="container">
+
+
+            <div class="entry">
+<header>
+<time datetime="2014-08-06T21:47:00+03:00">Çrş 06 Ağustos 2014</time>    <ul class="page-tags">
+    </ul>
+    <h1>
+        <span id="page-title-span"><a href="./category/game-1.html">Game-1</a> :: </span><span id="page-title">Doku</span>
+        <span class="page-translations">        <a href="./texture-en.html">en</a>
+</span>
+    </h1>
+</header>
+<article>
+    <p>UV koordinatlarını oluşturdum ve aşağıdaki dokuyla kapladım. Koordinatlar altıgen şeklinde, ancak kolaya kaçmak için basit bir test resmi kullandım.</p>
+<p><img alt="Doku resmi" src="static/tile.png" /></p>
+<p>Altıgenleri test amacıyla rastgele kapladım.</p>
+<div class="video-container">
+<img class="gfyitem" data-id="SnivelingCaringAmericanwigeon"/></div>
+<p>Aslında pazartesi günü bu kısmı yazmıştım, iki günümü hata ayıklamakla geçirdim. Önce sorunun shaderda olduğunu düşünüp, yeni bir shader yazdım. Ya da bir şekilde koordinatların ekran kartına gönderilmediğinden şüphelenip hatayı Horde3D'de aradım. Ama hep söyledikleri gibi hata büyük olasılıkla sendedir, zira bu kütüphaneler iyi test edilmiştir. En son sorunun gönderdiğim koordinatlarda olduğuna kanaat getirip hesaplama sonrası son değerleri yazdırdım. Düzgündü. Sonunda farkettim ki bu değerleri hesaplattığım fonksiyonun içerisinde kontrol ediyorum, ve koordinat olarak artık geçersiz hale gelen yerel değişkene pointerı gönderiyorum. Önce Ockham'ın Usturası.</p>
+</article>
+            </div>
+        </div>
+
+    <div id="footer">
+        <nav>
+            <ul>
+            </ul>
+        </nav>
+    </div>
+
+
+</div>
+
+</body>
+</html>

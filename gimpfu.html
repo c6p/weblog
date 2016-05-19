@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Log : Gimp'ten YAML'a kaplama koordinatları</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="./theme/css/main.css" type="text/css" />
+<link href="./" type="application/atom+xml" rel="alternate" title="Log ATOM Feed" />
+<script type="text/javascript" src="./theme/gfycat.js"></script>
+<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+<!--
+<script>
+ (function(d, t) {
+    var g = d.createElement(t),
+        s = d.getElementsByTagName(t)[0];
+    g.src = './theme/gfyajax-max.js';
+    s.parentNode.insertBefore(g, s);
+}(document, 'script'));
+</script>
+-->
+</head>
+
+<body>
+<div id="wrap">
+
+    <div id="sidebar">
+        <h1><a href=". " title="title">Log</a></h1>
+        <span class="description"> </span>
+        <!-- <span class="feed"><a href="">RSS</a> | <a href="">Atom</a></span> -->
+        <div class="block">
+            <ul class="categories">
+                <li><a href="./category/42.html">42</a></li>
+                <li><a href="./category/game-1.html">Game-1</a></li>
+                <li><a href="./category/genel.html">Genel</a></li>
+                <li><a href="./category/notara.html">NotAra</a></li>
+            </ul>
+        </div>
+        <div class="block">
+            <ul class="tagcloud">
+            </ul>
+        </div>
+    </div>
+
+        <div id="container">
+
+
+            <div class="entry">
+<header>
+<time datetime="2014-10-18T22:55:00+03:00">Cts 18 Ekim 2014</time>    <ul class="page-tags">
+    </ul>
+    <h1>
+        <span id="page-title-span"><a href="./category/game-1.html">Game-1</a> :: </span><span id="page-title">Gimp'ten YAML'a kaplama koordinatları</span>
+        <span class="page-translations">        <a href="./gimpfu-en.html">en</a>
+</span>
+    </h1>
+</header>
+<article>
+    <p>Gimp'te hazırlanacak çoklu kaplama içeren resimlerden, oyuna, katmanlardaki bilgileri kullanarak kolayca kaplama aktarabilmek için ufak bir <a href="https://gist.github.com/c6parmak/e73d82fc28f8f8a129a8">PythonFu</a> yazdım.</p>
+<p><img alt="Gimp ekran görüntüsü" src="static/gimp-layers.png" /></p>
+<p>Yukarıdaki katmanlardan görünür olanlarını bir PNG dosyasına kaydedip, yine görünür olanların koordinatlarını YAML olarak aşağıdaki şekilde yazıyor. Bunu ilk olarak YAML ve ChaiScript kullanacak olan arayüz kütüphanemde deneyeceğim. Daha sonra oyunun bütün kofigürasyonunu da yine bu ikisiyle yapmayı planlıyorum.</p>
+<div class="highlight"><pre><span></span><span class="l l-Scalar l-Scalar-Plain">load</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">Untitled.png</span>
+<span class="l l-Scalar l-Scalar-Plain">textures</span><span class="p p-Indicator">:</span>
+<span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">coords</span><span class="p p-Indicator">:</span>
+  <span class="p p-Indicator">-</span> <span class="p p-Indicator">[</span><span class="nv">0</span><span class="p p-Indicator">,</span> <span class="nv">20</span><span class="p p-Indicator">,</span> <span class="nv">20</span><span class="p p-Indicator">,</span> <span class="nv">20</span><span class="p p-Indicator">]</span>
+  <span class="p p-Indicator">-</span> <span class="p p-Indicator">[</span><span class="nv">20</span><span class="p p-Indicator">,</span> <span class="nv">20</span><span class="p p-Indicator">,</span> <span class="nv">20</span><span class="p p-Indicator">,</span> <span class="nv">20</span><span class="p p-Indicator">]</span>
+  <span class="l l-Scalar l-Scalar-Plain">name</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">button</span>
+  <span class="l l-Scalar l-Scalar-Plain">type</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">imagelist</span>
+<span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">coords</span><span class="p p-Indicator">:</span>
+  <span class="p p-Indicator">-</span> <span class="p p-Indicator">[</span><span class="nv">0</span><span class="p p-Indicator">,</span> <span class="nv">0</span><span class="p p-Indicator">,</span> <span class="nv">20</span><span class="p p-Indicator">,</span> <span class="nv">20</span><span class="p p-Indicator">]</span>
+  <span class="p p-Indicator">-</span> <span class="p p-Indicator">[</span><span class="nv">20</span><span class="p p-Indicator">,</span> <span class="nv">0</span><span class="p p-Indicator">,</span> <span class="nv">20</span><span class="p p-Indicator">,</span> <span class="nv">20</span><span class="p p-Indicator">]</span>
+  <span class="l l-Scalar l-Scalar-Plain">name</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">Layer Group</span>
+  <span class="l l-Scalar l-Scalar-Plain">type</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">imagelist</span>
+<span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">coords</span><span class="p p-Indicator">:</span> <span class="p p-Indicator">[</span><span class="nv">0</span><span class="p p-Indicator">,</span> <span class="nv">0</span><span class="p p-Indicator">,</span> <span class="nv">640</span><span class="p p-Indicator">,</span> <span class="nv">400</span><span class="p p-Indicator">]</span>
+  <span class="l l-Scalar l-Scalar-Plain">name</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">Background</span>
+  <span class="l l-Scalar l-Scalar-Plain">type</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">image</span>
+</pre></div>
+</article>
+            </div>
+        </div>
+
+    <div id="footer">
+        <nav>
+            <ul>
+            </ul>
+        </nav>
+    </div>
+
+
+</div>
+
+</body>
+</html>
